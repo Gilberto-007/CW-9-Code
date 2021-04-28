@@ -13,9 +13,9 @@ var grammar;
 function setup(){
 noCanvas();
 
-grammer = tracery.createGrammar("#phone#");
+grammer = tracery.createGrammar(phone_num);
 
-var result = grammar.flatten(#phone_num#);
+var result = grammar.flatten(##phone##);
 console.log(result);
 }
 }

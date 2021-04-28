@@ -11,7 +11,7 @@ var phone_num = {
 var grammar;
 
 function setup(){
-noCanvas();
+
 
 grammer = tracery.createGrammar(phone_num);
 

@@ -8,13 +8,13 @@ var phone_num{
 
 var grammar;
 
-function setup()
+function setup(){
 noCanvas();
 
-grammer = tracery.createGrammar(phone_num)
+grammer = tracery.createGrammar(phone_num);
 
-var result = grammar.flatten(#start#);
+var result = grammar.flatten(#phone_num#);
 console.log(result);
-
+}
 
 

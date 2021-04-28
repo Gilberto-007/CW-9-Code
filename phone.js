@@ -1,4 +1,4 @@
-function generate(){
+
 var phone_num = {
 "start": "Here is your phone number.",
 "area_code" : ["787", "939"],
@@ -18,5 +18,5 @@ grammer = tracery.createGrammar(phone_num);
 var result = grammar.flatten("#phone");
 console.log(result);
 }
-}
+
 

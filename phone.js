@@ -1,4 +1,4 @@
-var phone_num{
+var phone_num = {
 "start": "Here is your phone number.",
 "area_code" : ["787", "939"],
 "num" : ["1","2","3","4","5","6","7","8","9","10"],
